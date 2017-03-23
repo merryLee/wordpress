@@ -10,7 +10,8 @@
 
 		</div><!-- #main-core -->
 		</div><!-- #main -->
-		<?php /* Sidebar */ thinkup_sidebar_html(); ?>
+<!-- wp-modify -->
+		<?php /* Sidebar */ /*thinkup_sidebar_html();*/ ?>
 	</div>
 	</div><!-- #content -->
 

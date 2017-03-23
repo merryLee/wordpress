@@ -14,5 +14,7 @@ get_header(); ?>
 				<?php get_template_part( 'content', 'page' ); ?>
 
 			<?php endwhile; ?>
-
+			
+<!-- wp-modify -->
+			<?php /* Sidebar */ thinkup_sidebar_html(); ?>
 <?php get_footer(); ?>
