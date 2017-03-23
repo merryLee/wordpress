@@ -5045,3 +5045,65 @@ body .fa-lg {
 	line-height: 1;
 	vertical-align: -10%;
 }
+
+/* ---------------------------------------------------------------------------------------
+16. etc(bootstrap)
+--------------------------------------------------------------------------------------- */
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+section {
+  display: block;
+}
+.section {
+  position: relative;
+  padding: 35px 0;
+}
+.section-grey {
+  position: relative;
+  padding: 35px 0;
+  background-color: rgb(234,233,233);
+}
+.section .background-image {
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
