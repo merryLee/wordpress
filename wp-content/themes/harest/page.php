@@ -7,14 +7,25 @@
  * @package ThinkUpThemes
  */
 
+/*
+* 3.22. sidebar 위치 footer->page로 수정.
+* 3.23. float(부트스트랩) 설정.
+*
+*/
+
 get_header(); ?>
 
-			<?php while ( have_posts() ) : the_post(); ?>
+<div class="three_fourth">
+	<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'page' ); ?>
+		<?php get_template_part( 'content', 'page' ); ?>
 
-			<?php endwhile; ?>
-			
+	<?php endwhile; ?>
+</div>
+
+<div class="one_fourth last">
 <!-- wp-modify -->
-			<?php /* Sidebar */ thinkup_sidebar_html(); ?>
+	<?php /* Sidebar */ thinkup_sidebar_html(); ?>
+</div>
+
 <?php get_footer(); ?>
