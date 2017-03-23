@@ -9,23 +9,33 @@
 
 /*
 * 3.22. sidebar 위치 footer->page로 수정.
-* 3.23. float(부트스트랩) 설정.
+* 3.23. float(shortcode) 설정.
+* sidebar 페이지 별 구분.
 *
 */
 
 get_header(); ?>
 
+
+<?php
+$pageid = get_the_ID();
+
+if(($pageid==12)||($pageid==14)||($pageid==18)) : ?>
 <div class="three_fourth">
 	<?php while ( have_posts() ) : the_post(); ?>
-
 		<?php get_template_part( 'content', 'page' ); ?>
-
 	<?php endwhile; ?>
 </div>
-
 <div class="one_fourth last">
 <!-- wp-modify -->
 	<?php /* Sidebar */ thinkup_sidebar_html(); ?>
 </div>
+
+<?php else : ?>
+	<?php while ( have_posts() ) : the_post(); ?>
+		<?php get_template_part( 'content', 'page' ); ?>
+	<?php endwhile; ?>
+
+<?php endif; ?>
 
 <?php get_footer(); ?>
