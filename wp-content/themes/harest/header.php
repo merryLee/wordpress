@@ -78,7 +78,9 @@
 	<!-- header -->
 	<?php /*  Call To Action - Intro */ thinkup_input_ctaintro(); ?>
 
-	<?php /* Custom Intro */ thinkup_custom_intro(); ?>
+	<?php /* Custom Intro */ 
+	$pageid = get_the_ID();
+	if($pageid!=1) : thinkup_custom_intro(); endif; ?>
 	<?php /*  Pre-Designed HomePage Content */ thinkup_input_homepagesection(); ?>
 
 	<div id="content">

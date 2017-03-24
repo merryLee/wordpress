@@ -17,7 +17,7 @@ function thinkup_input_blogclass($classes){
 	}
 	return $classes;
 }
-add_action( 'body_class', 'thinkup_input_blogclass');
+/*add_action( 'body_class', 'thinkup_input_blogclass');*/
 
 
 /* ----------------------------------------------------------------------------------
