@@ -33,9 +33,9 @@
 		<div class="wrap-safari">
 		<div id="pre-header-core" class="main-navigation">
   
-<!--			<?php if ( has_nav_menu( 'pre_header_menu' ) ) : ?>
+			<?php /* if ( has_nav_menu( 'pre_header_menu' ) ) : ?>
 			<?php wp_nav_menu( array( 'container_class' => 'header-links', 'container_id' => 'pre-header-links-inner', 'theme_location' => 'pre_header_menu' ) ); ?>
-			<?php endif; ?>		-->
+			<?php endif; */?>
 			<?php /* Social Media Icons */ thinkup_input_socialmediaheaderpre(); ?>
 
 			<div class="pre-header-info">

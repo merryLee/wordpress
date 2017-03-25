@@ -5049,29 +5049,14 @@ body .fa-lg {
 /* ---------------------------------------------------------------------------------------
 16. etc(bootstrap)
 --------------------------------------------------------------------------------------- */
-.text-left {
-  text-align: left;
-}
-.text-right {
-  text-align: right;
-}
-.text-center {
-  text-align: center;
-}
 
-section {
-  display: block;
-}
-.section {
-  position: relative;
-  padding: 35px 0;
-}
 .section-grey {
   position: relative;
-  padding: 35px 0;
+  padding: 10px 0;
   background-color: rgb(234,233,233);
 }
-.section .background-image {
+
+.three_fourth .background-image {
   z-index: -1;
   position: absolute;
   top: 0px;
@@ -5081,34 +5066,8 @@ section {
   background-position: center;
 }
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
 .pre-header-info {
+	padding-left: 30px;
+	padding-right: 30px;
 	color: #fff;
-	margin: 15px;
 }
