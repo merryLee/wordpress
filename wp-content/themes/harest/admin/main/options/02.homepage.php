@@ -426,3 +426,40 @@ $thinkup_homepage_introactioncustom2 = thinkup_var ( 'thinkup_homepage_introacti
 	}
 }
 
+/*------------------------------
+etc. user funtion.
+------------------------------*/
+function user_input_onlinesection() {
+?>
+<div class="section-grey">
+      <div class="container2">
+<div class="row text-center">
+<p><h1><strong>온라인 입학수속신청</strong></h1></p>
+<p>유학을 희망 하시는 학생들은 아래의 온라인 입학신청 양식을 통해 간편하게 수속을 할 수 있습니다.<br />
+비용납부와 서류 확인이 완료되면 신청자 본인의 전화나 이메일로 수속 안내 과정을 통보 받으실 수 있습니다.</p>
+<p><strong>기타 궁금하신 사항은 상하이캠퍼스 유학센터 031-237-3259 로 문의 주시기 바랍니다.</strong></p>
+</div>
+</div></div>
+
+
+<div class="section-grey">
+      <div class="container2">
+		  <div class="su-spoiler su-spoiler-style-default su-spoiler-icon-plus">
+
+<div class="su-spoiler-title">
+<span class="su-spoiler-icon"></span>비용 납부 안내(필독)</div>
+
+<div class="su-spoiler-content su-clearfix"> <p>입학 신청시 학교에서 요구하는 입학 신청비(한화 약 8만원)와 국제 우편비(한화 약 2만원) 등은 신청시 아래의 계좌로 납부해주셔야 하며
+학비, 교재비, 기숙사비, 보험비 등은 학교 입학일에 현장 납부해주시면 됩니다.</p>
+<p>
+<i class="fa fa-tag" aria-hidden="true"></i> 신청비 납부 계좌정보 : 우리은행 1002-355-917855｜예금주 : 중국유학연맹</p>
+ </div>
+
+</div>
+
+
+</div></div>
+<hr />
+
+<?php
+} 

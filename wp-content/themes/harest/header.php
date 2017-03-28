@@ -38,9 +38,11 @@
 			<?php endif; */?>
 			<?php /* Social Media Icons */ thinkup_input_socialmediaheaderpre(); ?>
 
-			<div class="pre-header-info">
+			<div class="container">
+			<div class="navbar-header">
 			<i class="fa fa-phone" aria-hidden="true"></i> Tel. +82 31­-237-3259  │  
 			<i class="fa fa-envelope" aria-hidden="true"></i> pacificways@naver.com
+			</div>
 			</div>
 			
 		</div>
@@ -66,7 +68,7 @@
 			</div>
 			<!-- #header-links .main-navigation -->
 
-			<?php /* Add responsive header menu */ thinkup_input_responsivehtml1(); ?>
+			<?php /*Add responsive header menu*/  thinkup_input_responsivehtml1(); ?>
 
 		</div>
 		</div>
@@ -87,7 +89,11 @@
 	if($pageid!=1) : thinkup_custom_intro(); endif; ?>
 	<?php /*  Pre-Designed HomePage Content */ thinkup_input_homepagesection(); ?>
 
+	<?php if($pageid==12) : ?>
+	<div id="content" style="background-color: #eae9e9; !important;">
+	<?php else : ?>
 	<div id="content">
+	<?php endif; ?>
 	<div id="content-core">
 
 		<div id="main">
