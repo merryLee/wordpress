@@ -41,7 +41,7 @@
 			<div class="container">
 				<div class="navbar-header">
 
-						<i class="fa fa-phone" aria-hidden="true"></i> Tel. +82 31­-237-3259  │  
+			<i class="fa fa-phone" aria-hidden="true"></i> Tel. +82 31­-237-3259  │  
 			<i class="fa fa-envelope" aria-hidden="true"></i> pacificways@naver.com
 			</div>
 			</div>

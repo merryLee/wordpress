@@ -5178,3 +5178,13 @@ min-height: 486px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
+.navbar-header {
+  color: #fff;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .navbar-header {
+    float: left;
+  }
+}
