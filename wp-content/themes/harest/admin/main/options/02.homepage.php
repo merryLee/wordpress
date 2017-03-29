@@ -452,7 +452,7 @@ function user_input_onlinesection() {
 <div class="su-spoiler-content su-clearfix"> <p>입학 신청시 학교에서 요구하는 입학 신청비(한화 약 8만원)와 국제 우편비(한화 약 2만원) 등은 신청시 아래의 계좌로 납부해주셔야 하며
 학비, 교재비, 기숙사비, 보험비 등은 학교 입학일에 현장 납부해주시면 됩니다.</p>
 <p>
-<i class="fa fa-tag" aria-hidden="true"></i> 신청비 납부 계좌정보 : 우리은행 1002-355-917855｜예금주 : 중국유학연맹</p>
+<i class="fa fa-tag color-basic" aria-hidden="true"></i> 신청비 납부 계좌정보 : 우리은행 1002-355-917855｜예금주 : 중국유학연맹</p>
  </div>
 
 </div>

@@ -33,17 +33,19 @@
 		<div class="wrap-safari">
 		<div id="pre-header-core" class="main-navigation">
   
-			<?php /* if ( has_nav_menu( 'pre_header_menu' ) ) : ?>
+			<?php  /*if ( has_nav_menu( 'pre_header_menu' ) ) : ?>
 			<?php wp_nav_menu( array( 'container_class' => 'header-links', 'container_id' => 'pre-header-links-inner', 'theme_location' => 'pre_header_menu' ) ); ?>
-			<?php endif; */?>
+			<?php endif;*/ ?>
 			<?php /* Social Media Icons */ thinkup_input_socialmediaheaderpre(); ?>
 
 			<div class="container">
-			<div class="navbar-header">
-			<i class="fa fa-phone" aria-hidden="true"></i> Tel. +82 31­-237-3259  │  
+				<div class="navbar-header">
+
+						<i class="fa fa-phone" aria-hidden="true"></i> Tel. +82 31­-237-3259  │  
 			<i class="fa fa-envelope" aria-hidden="true"></i> pacificways@naver.com
 			</div>
 			</div>
+			
 			
 		</div>
 		</div>
