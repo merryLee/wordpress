@@ -3483,7 +3483,6 @@ button.close {
   }
 }
 
-
 @media screen and (min-width: 768px) {
 .row-wrap:before,
 .row-wrap:after {
@@ -3499,6 +3498,8 @@ button.close {
 	padding: 0px 20px;
 }
 }
+
+
 
 /* 3.29. 텍스트 정렬 추가 */
 .text-left {

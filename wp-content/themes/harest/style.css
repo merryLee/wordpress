@@ -5096,7 +5096,7 @@ body .fa-lg {
 }
 @media (min-width: 992px) {
 	#home-image {
-		min-height: 486px; 
+		min-height: 420px; 
 	}
 	#main-text {
 	position: absolute;
