@@ -5057,16 +5057,21 @@ body .fa-lg {
 }
 
 /* ---------------------------------------------------------------------------------------
-16. etc(bootstrap)
+16-0. user etc(bootstrap 공통적용)
 --------------------------------------------------------------------------------------- */
 .section {
   position: relative;
+  padding: 20px 10px;
 }
 .section-grey {
   position: relative;
+  padding: 20px 10px;
   background-color: rgb(234,233,233);
 }
 
+/* ---------------------------------------------------------------------------------------
+16-1. user etc(index page)
+--------------------------------------------------------------------------------------- */
 #main-left {
   position: relative;
   margin: 0px;
@@ -5075,20 +5080,85 @@ body .fa-lg {
 }
 
 #home-image {
-
+	min-height: 240px; 
 	background-position: center top;
 	opacity: 1;
+}
+#main-text {
+	position:absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0px 20px 20px 0px;
+}
+#main-subject {
+	color: #fff;
+	font-size: 150%;
 }
 @media (min-width: 992px) {
 	#home-image {
 		min-height: 486px; 
 	}
+	#main-text {
+	position: absolute;
+  	bottom: 0;
+	right: 0;
+	padding: 0px 100px 50px 0px;
+  }
+  #main-subject {
+	  color: #fff;
+	  font-size: 250%;
+  }
+}
+
+.main-image-style:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+
+#main-info-background {
+	position: absolute;
+		display: none;
+}
+@media (min-width: 992px) {
+#main-info-background {
+	position: absolute;
+	display: block;
+}
 }
 
 
 
 
 /*------------정리 라인-------------*/
+
+
+
+
+
+
+.title-container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .title-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .title-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .title-container {
+    width: 100%;
+  }
+}
+
 
 .color-basic {
 	color: #ad1730;
@@ -5097,15 +5167,7 @@ body .fa-lg {
 
 
 
-#main-text {
-	padding: 100px 50px 0px 0px;
-}
 
-
-.arr-top {
-	top: 0; right: 0;
-	position: relative;
-}
 
 
 
