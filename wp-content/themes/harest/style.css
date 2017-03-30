@@ -5069,6 +5069,33 @@ body .fa-lg {
   background-color: rgb(234,233,233);
 }
 
+.title-container  {
+  position:relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+}
+@media (min-width: 768px) {
+  .title-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .title-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .title-container {
+    width: 100%;
+  }
+}
+
+.background-color-grey {
+	  background-color: rgb(234,233,233);
+}
+
+
 /* ---------------------------------------------------------------------------------------
 16-1. user etc(index page)
 --------------------------------------------------------------------------------------- */
@@ -5131,34 +5158,50 @@ body .fa-lg {
 
 
 
-
-/*------------정리 라인-------------*/
-
-
-
-
-
-
-.title-container {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-@media (min-width: 768px) {
-  .title-container {
-    width: 750px;
-  }
+/* ---------------------------------------------------------------------------------------
+16-2. user etc(about page)
+--------------------------------------------------------------------------------------- */
+.inline-column {
+	display: none;
+	float: left;
 }
 @media (min-width: 992px) {
-  .title-container {
-    width: 970px;
-  }
+.inline-column {
+	display: inline;
 }
-@media (min-width: 1200px) {
-  .title-container {
-    width: 100%;
-  }
 }
 
+.about-wrapper {
+	 margin: 0 auto;
+	 text-align: center;
+}
+
+.about-icon-box {
+	text-align: center;
+}
+@media (min-width: 992px) {
+.about-icon-box {
+	width: 18%;
+	float: left;
+}
+}
+
+.about-textarea {
+	padding: 10px;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid rgb(234,233,233);		
+}
+
+
+
+
+
+
+
+
+
+/*------------정리 라인-------------*/
 
 .color-basic {
 	color: #ad1730;
@@ -5168,27 +5211,6 @@ body .fa-lg {
 
 
 
-
-
-
-
-
-.icon-box {
-	/*background-color: #fff;*/
-	text-align: center;
-}
-@media (min-width: 992px) {
-.icon-box {
-	width: 18%;
-	float: left;
-}
-}
-.about {
-		background-color: #fff;
-			border: 1px solid rgb(234,233,233);
-	text-align: center;
-		padding: 10px;
-}
 
 .online_form, .border-basic {
 	padding: 10px;
@@ -5202,14 +5224,6 @@ body .fa-lg {
   margin-left: auto;
 }
 
-.wrap {
-	top:0; right:0; bottom:0; left:0; margin:auto;
-}
-
-.column {
-	display: inline;
-	float: left;
-}
 
 .info_table {
 	background-color: black;
