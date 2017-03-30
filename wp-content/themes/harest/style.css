@@ -259,8 +259,6 @@ button,
 input,
 select,
 textarea {
-	/*form 크기 맞추기*/ width:100%;
-
 	font-size: 100%;
 	margin: 0;
 	-webkit-box-sizing: border-box;
@@ -433,7 +431,7 @@ a:visited {
 #content {
 	clear: both;
 	margin: 0;
-	/*padding: 30px 10px;*/ /*padding값 제거*/
+	padding: 30px 10px;
 }
 
 /* Boxed layout */
@@ -774,9 +772,6 @@ li.pag-next {
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
-/*add*/
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 #pre-header li {
 	float: left;
@@ -5035,10 +5030,8 @@ span.bar-per {
 .wrap-safari {
 	display: block; 
 	height: 100%; 
-	max-width: 100%;  /*1140px -> 100% 수정*/
+	max-width: 1140px; 
 	margin: 0 auto;
-
-	/*add*/ padding-left: 30px; padding-right: 30px;
 }
 
 
@@ -5057,119 +5050,63 @@ body .fa-lg {
 }
 
 /* ---------------------------------------------------------------------------------------
-16-0. user etc(bootstrap 공통적용)
+16. etc(bootstrap)
 --------------------------------------------------------------------------------------- */
+
 .section {
   position: relative;
-  padding: 20px 10px;
+  padding: 0px 20px;
 }
+
 .section-grey {
   position: relative;
-  padding: 20px 10px;
+  padding: 10px 0px;
   background-color: rgb(234,233,233);
 }
-
-/* ---------------------------------------------------------------------------------------
-16-1. user etc(index page)
---------------------------------------------------------------------------------------- */
-#main-left {
-  position: relative;
-  margin: 0px;
-  padding: 50px 30px 50px 30px;
-  color: #fff;
-}
-
-#home-image {
-	min-height: 240px; 
-	background-position: center top;
-	opacity: 1;
-}
-#main-text {
-	position:absolute;
-	bottom: 0;
-	right: 0;
-	padding: 0px 20px 20px 0px;
-}
-#main-subject {
-	color: #fff;
-	font-size: 150%;
-}
-@media (min-width: 992px) {
-	#home-image {
-		min-height: 420px; 
-	}
-	#main-text {
-	position: absolute;
-  	bottom: 0;
-	right: 0;
-	padding: 0px 100px 50px 0px;
-  }
-  #main-subject {
-	  color: #fff;
-	  font-size: 250%;
-  }
-}
-
-.main-image-style:hover {
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-	filter: alpha(opacity=70);
-	-moz-opacity: 0.7;
-	-khtml-opacity: 0.7;
-	opacity: 0.7;
-}
-
-#main-info-background {
-	position: absolute;
-		display: none;
-}
-@media (min-width: 992px) {
-#main-info-background {
-	position: absolute;
-	display: block;
-}
-}
-
-
-
-
-/*------------정리 라인-------------*/
-
-
-
-
-
-
-.title-container {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-@media (min-width: 768px) {
-  .title-container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .title-container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .title-container {
-    width: 100%;
-  }
-}
-
 
 .color-basic {
 	color: #ad1730;
 }
 
+#main-left {
+  position: relative;
+  color: #fff;
+  padding: 50px 30px 50px 30px;
+}
 
+.main-text {
 
+	 padding: 100px 50px 0px 0px;
+	 z-index: 3;
+}
 
+.main-cover {
+/*	position: absolute;*/
+	z-index: 2;
+/*	width: 100%;
+	height: 700px;
+    top: 0px;
+    background-size: cover;
+    background-position: center;*/
+}
 
+@media (min-width: 992px) {
+.main-cover {
+	height: 18%;
+}
+}
 
+.home-image {
+	background-position: center top;
 
+	opacity: 1;
+	z-index: 20; 
+}
+@media (min-width: 992px) {
+	.home-image {
+min-height: 486px; 
+	}
+}
 
 
 
