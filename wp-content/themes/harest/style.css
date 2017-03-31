@@ -5347,9 +5347,9 @@ body .fa-lg {
 /*	form 크기 맞추기  */ width:100%;
 }
 
-
-
-
+#online-spoiler .su-spoiler-title {
+	background-color: transparent;
+}
 
 /*------------정리 라인-------------*/
 
