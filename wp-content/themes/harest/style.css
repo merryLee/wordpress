@@ -5284,7 +5284,7 @@ body .fa-lg {
 	padding: 0px 10px;
 }
 
-#specific-table {
+.specific-table {
 	background-color: #c11738;
 	color: #fff;
 }
@@ -5303,7 +5303,47 @@ body .fa-lg {
 /*	form 크기 맞추기  */ width:100%;
 }
 
+/* univ specific page */
 
+
+.hd-specific-table {
+	text-align: center;
+	font-size: 120%;
+	color: black;
+			border-collapse: collapse;
+	border: 2px solid black;
+}
+.hd-specific-table tr {
+	border-collapse: collapse;
+}
+.hd-specific-table td {
+	padding: 10px;
+	border: 1px solid #e0dede;
+}
+
+.specific-title {
+	margin: 10px 0px;
+	padding: 10px 20px;
+	font-size: 120%;
+	font-weight: bold;
+	color: black;
+	background-color: #ececec;
+}
+
+#specific-table-pay, #specific-table-schedule {
+	text-align: left;
+	margin: 0;
+}
+#specific-table-pay th,
+#specific-table-pay td {
+	padding: 7px 15px;
+	border: 1px solid #e0dede;
+}
+#specific-table-schedule,
+#specific-table-schedule td {
+	padding: 7px 15px;
+	border: 1px solid #e0dede;
+}
 
 /*------------정리 라인-------------*/
 

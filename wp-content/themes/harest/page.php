@@ -20,7 +20,9 @@ get_header(); ?>
 <?php
 $pageid = get_the_ID();
 
-if(($pageid==12)||($pageid==14)||($pageid==18)||($pageid==375)||($pageid==378)||($pageid==381)||($pageid==384)) : ?>
+if(($pageid==12)||($pageid==14)||($pageid==18)
+||($pageid==375)||($pageid==378)||($pageid==381)||($pageid==384)
+||($pageid==898)||($pageid==901)||($pageid==905)||($pageid==908)) : ?>
 
 	<?php if($pageid==12) : ?>
 	<div class="row-wrap">
@@ -33,7 +35,7 @@ if(($pageid==12)||($pageid==14)||($pageid==18)||($pageid==375)||($pageid==378)||
 		<?php get_template_part( 'content', 'page' ); ?>
 	<?php endwhile; ?>
 </div>
-<div class="one_fourth last">
+<div class="one_fourth last" style="background-color: #fff;">
 <!-- wp-modify -->
 	<?php /* Sidebar */ thinkup_sidebar_html(); ?>
 </div>
