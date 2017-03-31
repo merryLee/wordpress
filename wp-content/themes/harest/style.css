@@ -5277,18 +5277,36 @@ body .fa-lg {
 }
 
 
+/* ---------------------------------------------------------------------------------------
+16-4. user etc(special, specific page)
+--------------------------------------------------------------------------------------- */
+.special-text-wrapper {
+	padding: 0px 10px;
+}
 
-
+#specific-table {
+	background-color: #c11738;
+	color: #fff;
+}
 
 
 /*------------정리 라인-------------*/
 
+.border-grey {
+	display: block;
+	position: relative;
+	line-height: 1.5;
+	border-top: 1px solid black;
+}
 
+#specific-border-box {
+	display: block;
+	box-sizing: border-box;
 
+}
 
 .color-basic {
-	color: #ad1730;
-	
+	color: #ad1730;	
 }
 
 
@@ -5301,10 +5319,7 @@ body .fa-lg {
 	border: 1px solid rgb(234,233,233);
 }
 
-.univ_table {
-	background-color: #c11738;
-	color: #fff;
-}
+
 
 
 .section2{
