@@ -314,8 +314,10 @@ input[type=search],
 input[type=tel],
 select,
 textarea {
-	background: white;
-	border: 1px solid #e9e9e9;
+	background: #eee;
+/*	background: white;*/
+	border: 1px solid #d2d2d2;
+/*	border: 1px solid #e9e9e9;*/
 	padding: 10px 20px;
 }
 input[type=text]:focus,
@@ -325,7 +327,8 @@ input[type=search]:focus,
 input[type=tel]:focus,
 select:focus,
 textarea:focus {
-	background: #fff;
+/*	background: #fff; */
+	background: #eee;
 }
 textarea {
 	overflow: auto;
@@ -5123,7 +5126,7 @@ body .fa-lg {
 }
 @media (min-width: 992px) {
 	#home-image {
-		min-height: 420px; 
+		min-height: 440px; 
 	}
 	#main-text {
 	position: absolute;
@@ -5214,7 +5217,7 @@ body .fa-lg {
 	color: red;
 }
 
-/*-------info page------*/
+/*-------info page, qna page.------*/
 .border-wine {
 	border-top: 1px solid #ad1730;
 }
@@ -5230,6 +5233,10 @@ body .fa-lg {
 }
 .info-table-wrapper {
 	padding: 20px;
+}
+
+.qna_board {
+	padding: 20px 50px;
 }
 
 
@@ -5259,13 +5266,6 @@ body .fa-lg {
   padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
-}
-
-
-
-
-.qna_board {
-	padding: 20px 100px;
 }
 
 .univ_table {
