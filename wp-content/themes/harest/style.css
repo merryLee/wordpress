@@ -5322,6 +5322,7 @@ body .fa-lg {
 }
 
 .specific-title {
+	margin: 10px 0px;
 	padding: 10px 20px;
 	font-size: 120%;
 	font-weight: bold;
@@ -5329,15 +5330,20 @@ body .fa-lg {
 	background-color: #ececec;
 }
 
-#specific-table-pay {
+#specific-table-pay, #specific-table-schedule {
 	text-align: left;
+	margin: 0;
 }
 #specific-table-pay th,
 #specific-table-pay td {
 	padding: 7px 15px;
 	border: 1px solid #e0dede;
 }
-
+#specific-table-schedule,
+#specific-table-schedule td {
+	padding: 7px 15px;
+	border: 1px solid #e0dede;
+}
 
 /*------------정리 라인-------------*/
 
