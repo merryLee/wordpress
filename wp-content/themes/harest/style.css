@@ -5278,7 +5278,7 @@ body .fa-lg {
 
 
 /* ---------------------------------------------------------------------------------------
-16-4. user etc(special, specific page)
+16-4. user etc(special, specific page, online page)
 --------------------------------------------------------------------------------------- */
 .special-text-wrapper {
 	padding: 0px 10px;
@@ -5288,6 +5288,21 @@ body .fa-lg {
 	background-color: #c11738;
 	color: #fff;
 }
+
+/* online page */
+#online-form {
+	 padding: 50px;
+	 border: 1px solid rgb(234,233,233);
+	 background-color: #fff;
+}
+
+#online-form button,
+#online-form input,
+#online-form select,
+#online-form textarea {
+/*	form 크기 맞추기  */ width:100%;
+}
+
 
 
 /*------------정리 라인-------------*/
@@ -5309,15 +5324,11 @@ body .fa-lg {
 	color: #ad1730;	
 }
 
-
-
-
-
-
-.online_form, .border-basic {
+.border-basic {
 	padding: 10px;
 	border: 1px solid rgb(234,233,233);
 }
+
 
 
 
