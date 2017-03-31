@@ -259,7 +259,7 @@ button,
 input,
 select,
 textarea {
-	/*form 크기 맞추기*/ width:100%;
+	/*form 크기 맞추기 width:100%; */
 
 	font-size: 100%;
 	margin: 0;
@@ -271,6 +271,9 @@ textarea {
 	vertical-align: baseline;
 	*vertical-align: middle;
 }
+
+
+
 button,
 input {
 	line-height: normal;
