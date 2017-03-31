@@ -5278,7 +5278,7 @@ body .fa-lg {
 
 
 /* ---------------------------------------------------------------------------------------
-16-4. user etc(special, specific page, online page)
+16-4. user etc(special, specific page)
 --------------------------------------------------------------------------------------- */
 .special-text-wrapper {
 	padding: 0px 10px;
@@ -5289,23 +5289,7 @@ body .fa-lg {
 	color: #fff;
 }
 
-/* online page */
-#online-form {
-	 padding: 50px;
-	 border: 1px solid rgb(234,233,233);
-	 background-color: #fff;
-}
-
-#online-form button,
-#online-form input,
-#online-form select,
-#online-form textarea {
-/*	form 크기 맞추기  */ width:100%;
-}
-
 /* univ specific page */
-
-
 .hd-specific-table {
 	text-align: center;
 	font-size: 120%;
@@ -5345,6 +5329,28 @@ body .fa-lg {
 	border: 1px solid #e0dede;
 }
 
+
+/* ---------------------------------------------------------------------------------------
+16-4. user etc(online page, sidebar form)
+--------------------------------------------------------------------------------------- */
+/* online page */
+#online-form {
+	 padding: 50px;
+	 border: 1px solid rgb(234,233,233);
+	 background-color: #fff;
+}
+
+#online-form button,
+#online-form input,
+#online-form select,
+#online-form textarea {
+/*	form 크기 맞추기  */ width:100%;
+}
+
+
+
+
+
 /*------------정리 라인-------------*/
 
 .border-grey {
@@ -5372,10 +5378,7 @@ body .fa-lg {
 
 
 
-.section2{
-  position: relative;
-  padding: 10px 0;
-}
+
 
 .side-form-arr {
 	margin-top: 5px;
@@ -5391,144 +5394,3 @@ body .fa-lg {
     float: left;
   }
 }
-
-
-/*		Spoiler + Accordion
----------------------------------------------------------------*/
-
-.su-spoiler { margin-bottom: 1.5em; }
-.su-spoiler .su-spoiler:last-child { margin-bottom: 0; }
-.su-accordion { margin-bottom: 1.5em; }
-.su-accordion .su-spoiler { margin-bottom: 0.5em; }
-.su-spoiler-title {
-	position: relative;
-	cursor: pointer;
-	min-height: 20px;
-	line-height: 20px;
-	padding: 7px 7px 7px 34px;
-	font-weight: bold;
-	font-size: 15px;
-	background-color: #edeff2;
-	color: black;
-}
-.su-spoiler-icon {
-	position: absolute;
-	left: 7px;
-	top: 7px;
-	display: block;
-	width: 20px;
-	height: 20px;
-	line-height: 21px;
-	text-align: center;
-	font-size: 14px;
-	font-family: FontAwesome;
-	font-weight: normal;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	*margin-right: .3em;
-	background-color: #ad1730;
-	color: #fff;
-}
-.su-spoiler-content {
-	padding: 14px;
-	-webkit-transition: padding-top .2s;
-	-moz-transition: padding-top .2s;
-	-o-transition: padding-top .2s;
-	transition: padding-top .2s;
-	-ie-transition: padding-top .2s;
-}
-.su-spoiler.su-spoiler-closed > .su-spoiler-content {
-	height: 0;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	border: none;
-	opacity: 0;
-}
-.su-spoiler-icon-plus .su-spoiler-icon:before { content: "\f068"; }
-.su-spoiler-icon-plus.su-spoiler-closed .su-spoiler-icon:before { content: "\f067"; }
-.su-spoiler-icon-plus-circle .su-spoiler-icon:before { content: "\f056"; }
-.su-spoiler-icon-plus-circle.su-spoiler-closed .su-spoiler-icon:before { content: "\f055"; }
-.su-spoiler-icon-plus-square-1 .su-spoiler-icon:before { content: "\f146"; }
-.su-spoiler-icon-plus-square-1.su-spoiler-closed .su-spoiler-icon:before { content: "\f0fe"; }
-.su-spoiler-icon-plus-square-2 .su-spoiler-icon:before { content: "\f117"; }
-.su-spoiler-icon-plus-square-2.su-spoiler-closed .su-spoiler-icon:before { content: "\f116"; }
-.su-spoiler-icon-arrow .su-spoiler-icon:before { content: "\f063"; }
-.su-spoiler-icon-arrow.su-spoiler-closed .su-spoiler-icon:before { content: "\f061"; }
-.su-spoiler-icon-arrow-circle-1 .su-spoiler-icon:before { content: "\f0ab"; }
-.su-spoiler-icon-arrow-circle-1.su-spoiler-closed .su-spoiler-icon:before { content: "\f0a9"; }
-.su-spoiler-icon-arrow-circle-2 .su-spoiler-icon:before { content: "\f01a"; }
-.su-spoiler-icon-arrow-circle-2.su-spoiler-closed .su-spoiler-icon:before { content: "\f18e"; }
-.su-spoiler-icon-chevron .su-spoiler-icon:before { content: "\f078"; }
-.su-spoiler-icon-chevron.su-spoiler-closed .su-spoiler-icon:before { content: "\f054"; }
-.su-spoiler-icon-chevron-circle .su-spoiler-icon:before { content: "\f13a"; }
-.su-spoiler-icon-chevron-circle.su-spoiler-closed .su-spoiler-icon:before { content: "\f138"; }
-.su-spoiler-icon-caret .su-spoiler-icon:before { content: "\f0d7"; }
-.su-spoiler-icon-caret.su-spoiler-closed .su-spoiler-icon:before { content: "\f0da"; }
-.su-spoiler-icon-caret-square .su-spoiler-icon:before { content: "\f150"; }
-.su-spoiler-icon-caret-square.su-spoiler-closed .su-spoiler-icon:before { content: "\f152"; }
-.su-spoiler-icon-folder-1 .su-spoiler-icon:before { content: "\f07c"; }
-.su-spoiler-icon-folder-1.su-spoiler-closed .su-spoiler-icon:before { content: "\f07b"; }
-.su-spoiler-icon-folder-2 .su-spoiler-icon:before { content: "\f115"; }
-.su-spoiler-icon-folder-2.su-spoiler-closed .su-spoiler-icon:before { content: "\f114"; }
-.su-spoiler-style-default { }
-.su-spoiler-style-default > .su-spoiler-title {
-	padding-left: 27px;
-	padding-right: 0;
-}
-.su-spoiler-style-default > .su-spoiler-title > .su-spoiler-icon { left: 0; }
-.su-spoiler-style-default > .su-spoiler-content { padding: 1em 0 1em 27px; }
-.su-spoiler-style-fancy {
-	border: 1px solid #ccc;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	background: #fff;
-	color: #333;
-}
-.su-spoiler-style-fancy > .su-spoiler-title {
-	border-bottom: 1px solid #ccc;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	background: #f0f0f0;
-	font-size: 0.9em;
-}
-.su-spoiler-style-fancy.su-spoiler-closed > .su-spoiler-title { border: none; }
-.su-spoiler-style-fancy > .su-spoiler-content {
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-}
-.su-spoiler-style-simple {
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-}
-.su-spoiler-style-simple > .su-spoiler-title {
-	padding: 5px 10px;
-	background: #f0f0f0;
-	color: #333;
-	font-size: 0.9em;
-}
-.su-spoiler-style-simple > .su-spoiler-title > .su-spoiler-icon { display: none; }
-.su-spoiler-style-simple > .su-spoiler-content {
-	padding: 1em 10px;
-	background: #333;
-	color: #fff;
-}
-
-/*		Common margin resets for box elements
----------------------------------------------------------------*/
-
-.su-spoiler-content > *:first-child { margin-top: 0; }
-.su-spoiler-content > *:last-child { margin-bottom: 0; }
-
-/*		Common styles
----------------------------------------------------------------*/
-
-.su-clearfix:before,
-.su-clearfix:after {
-	display: table;
-	content: " ";
-}
-.su-clearfix:after { clear: both; }
