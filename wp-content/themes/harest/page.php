@@ -23,7 +23,7 @@ $pageid = get_the_ID();
 if(($pageid==12)||($pageid==14)||($pageid==18)||($pageid==375)||($pageid==378)||($pageid==381)||($pageid==384)) : ?>
 
 	<?php if($pageid==12) : ?>
-	<div class="row">
+	<div class="row-wrap">
 	<?php /*online-pre-section*/ user_input_onlinesection(); ?>
 	</div>
 	<?php endif; ?>
