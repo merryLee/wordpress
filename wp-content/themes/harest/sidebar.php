@@ -7,7 +7,8 @@
 ?>
 
 		<div id="sidebar">
-		<div id="sidebar-core">
+		<div id="sidebar-core" style="margin: 50px 10px;">
+		<!--<div id="sidebar-core">-->
 
 			<?php do_action( 'before_sidebar' ); ?>
 			<?php if ( ! dynamic_sidebar( thinkup_input_sidebars() ) and current_user_can( 'edit_theme_options' ) ) : ?>
