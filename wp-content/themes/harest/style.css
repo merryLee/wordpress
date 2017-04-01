@@ -5354,10 +5354,10 @@ body .fa-lg {
 	font-size: 13px;
 	line-height: 20px;
 } 
-#online-apply-table input {
+#online-apply-table input[type="text"] {
 	color: black;
 }
-#online-apply-table input, select {
+#online-apply-table input[type="text"], select, radio {
 	padding-top: 1px;
 	padding-bottom: 1px;
 	height: 28px;
@@ -5366,8 +5366,15 @@ body .fa-lg {
 #online-apply-table td {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	vertical-align: middle;
 }
 
+.online-form-radio {
+	height: 49px;
+}
+#online-form .online-form-radio input {
+	width: inherit;
+}
 
 /*------------정리 라인-------------*/
 
