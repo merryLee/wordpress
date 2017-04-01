@@ -237,6 +237,7 @@ add_action( 'body_class', 'thinkup_input_footerscroll');
 
 function thinkup_input_copyright() {
 
-	printf( __( 'Developed by %1$s. Powered by %2$s.', 'harest' ) , '<a href="//www.thinkupthemes.com/" target="_blank">Think Up Themes Ltd</a>', '<a href="' . esc_url( __( '//wordpress.org/', 'harest' ) ) . '" target="_blank">WordPress</a>'); 
+/*	printf( __( 'Developed by %1$s. Powered by %2$s.', 'harest' ) , '<a href="//www.thinkupthemes.com/" target="_blank">Think Up Themes Ltd</a>', '<a href="' . esc_url( __( '//wordpress.org/', 'harest' ) ) . '" target="_blank">WordPress</a>');  */
+	printf('Copyright ⓒ 2015. China Study Abroad Alliance Group. All right Reserved.');
 }
 
