@@ -5347,6 +5347,28 @@ body .fa-lg {
 	background-color: transparent;
 }
 
+#online-apply-table {
+	text-align: left;
+}
+#online-apply-table p {
+	font-size: 13px;
+	line-height: 20px;
+} 
+#online-apply-table input {
+	color: black;
+}
+#online-apply-table input, select {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	height: 28px;
+
+}
+#online-apply-table td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
 /*------------정리 라인-------------*/
 
 .border-grey {
