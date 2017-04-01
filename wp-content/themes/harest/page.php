@@ -20,15 +20,9 @@ get_header(); ?>
 <?php
 $pageid = get_the_ID();
 
-if(($pageid==12)||($pageid==14)||($pageid==18)
+if(($pageid==14)||($pageid==18)
 ||($pageid==375)||($pageid==378)||($pageid==381)||($pageid==384)
 ||($pageid==898)||($pageid==901)||($pageid==905)||($pageid==908)) : ?>
-
-	<?php if($pageid==12) : ?>
-	<div class="row-wrap">
-	<?php /*online-pre-section*/ user_input_onlinesection(); ?>
-	</div>
-	<?php endif; ?>
 
 <div class="three_fourth">
 	<?php while ( have_posts() ) : the_post(); ?>
