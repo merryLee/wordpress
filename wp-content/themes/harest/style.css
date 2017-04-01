@@ -726,7 +726,8 @@ li.pag-next {
 #logo img,
 #logo-sticky img {
 	width: auto;
-	max-height: 45px;
+/*	max-height: 45px; */
+/*user추가*/	max-height: 49px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
@@ -953,9 +954,13 @@ li.pag-next {
 }
 #header .header-links > ul > li a,
 #header-sticky .header-links > ul > li a {
-	font-size: 14px;
-	color: #898a8c;
+/*	font-size: 14px;
+	color: #898a8c;*/
 	padding: 36px 15px;
+/*user 수정*/
+	font-size: 15px;
+	font-weight: 600;
+	color: #333333;
 }
 #header .header-links > ul > li.menu-parent > a:after,
 #header-sticky .header-links > ul > li.menu-parent > a:after {
@@ -979,6 +984,7 @@ li.pag-next {
 	background: #FFF;
 	border: 1px solid #DDD;
 	border-bottom: none;
+/* user추가 */ border-top: 3px solid #ad1730; 
 }
 #header .header-links .sub-menu a,
 #header-sticky .header-links .sub-menu a {
@@ -1046,8 +1052,9 @@ li.pag-next {
 #header-sticky .menu > li.current-menu-ancestor > a span,
 #header-sticky .menu > li > a:hover span {
 	padding-bottom: 7px;
-	border-bottom: 2px solid #ad1730;
+	/*border-bottom: 2px solid #ad1730; user제거*/ 
 }
+
 .main-navigation:after {
 	clear: both;
 	content: "";
@@ -5354,14 +5361,13 @@ body .fa-lg {
 	font-size: 13px;
 	line-height: 20px;
 } 
-#online-apply-table input[type="text"] {
+#online-apply-table input[type="file"] {
 	color: black;
 }
 #online-apply-table input[type="text"], select, radio {
 	padding-top: 1px;
 	padding-bottom: 1px;
 	height: 28px;
-
 }
 #online-apply-table td {
 	padding-top: 10px;
