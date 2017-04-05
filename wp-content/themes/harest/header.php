@@ -41,8 +41,8 @@
 			<div class="container">
 				<div class="navbar-header">
 
-			<i class="fa fa-phone" aria-hidden="true"></i> Tel. +82 70­-8637-4888  | 
-			<i class="fa fa-envelope" aria-hidden="true"></i> delhikim@daum.net</div>
+			<span style="white-space: nowrap;"><i class="fa fa-phone" aria-hidden="true"></i> Tel. +82 70­-8637-4888  | </span>
+			<span style="white-space: nowrap;"><i class="fa fa-envelope" aria-hidden="true"></i> delhikim@daum.net</span></div>
 			</div>
 			
 			
