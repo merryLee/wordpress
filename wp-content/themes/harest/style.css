@@ -942,6 +942,15 @@ li.pag-next {
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
 }
+/*user*/
+@media screen and (max-width: 768px) {
+#header,
+#header-sticky {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
 #header-links,
 #header-sticky-links {
 	float: right;
