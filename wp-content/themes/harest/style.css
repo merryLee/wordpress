@@ -64,7 +64,8 @@ ol, ul, li,
 fieldset, form, label, legend,
 tbody, tfoot, thead, tr {
 	border: 0;
-	font-family: inherit;
+/*	font-family: inherit;*/
+	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -142,8 +143,8 @@ input,
 select,
 textarea {
 	color: #898a8c;	
-
-	font-family: Raleway, Helvetica, Arial;
+/*	font-family: Raleway, Helvetica, Arial;*/
+	font-family: 'Nanum Gothic', Raleway, Helvetica;
 	font-size: 13px;
 	line-height: 1.8;
 	word-wrap: break-word;
@@ -171,7 +172,8 @@ h1,h2,h3,h4,h5,h6 {
 	color: #202224;
 	clear: both;
 	margin: 0 0 0.8em;
-	font-family: Raleway, Helvetica, Arial;
+	/*	font-family: Raleway, Helvetica, Arial;*/
+	font-family: 'Nanum Gothic', Raleway, Helvetica;
 	line-height: 1.5;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
