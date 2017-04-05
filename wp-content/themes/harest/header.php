@@ -41,8 +41,9 @@
 			<div class="container">
 				<div class="navbar-header">
 
-			<i class="fa fa-phone" aria-hidden="true"></i> Tel. +82 31­-237-3259  │  
-			<i class="fa fa-envelope" aria-hidden="true"></i> pacificways@naver.com
+			<i class="fa fa-phone" aria-hidden="true"></i> Tel. +82 70­-8637-4888  │  
+			<i class="fa fa-phone" aria-hidden="true"></i> Tel. +86 21­-6456-5707  │  
+			<i class="fa fa-envelope" aria-hidden="true"></i> delhikim@daum.net
 			</div>
 			</div>
 			
