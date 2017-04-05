@@ -934,21 +934,21 @@ li.pag-next {
 #header-sticky {
 	font-size: 12px;
 	background: #FFF;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
 }
-/*user*/
+/*user
 @media screen and (min-width: 768px) {
 #header,
 #header-sticky {
 	padding-left: 30px;
 	padding-right: 30px;
-}
+}*/
 
 #header-links,
 #header-sticky-links {
@@ -2048,7 +2048,7 @@ input[type="reset"],
 input[type="submit"] {
 	color: #FFF;
 	text-align: center;
-	background: #ad1730 !important;
+	background: #ad1730;
 	border: none;
 	padding: 10px 20px;
 	-webkit-transition: all 0.3s ease;
@@ -2070,7 +2070,7 @@ button:hover,
 html input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background: #2d2d2d !important;
+	background: #2d2d2d;
 }
 
 /* Theme button - Style 2 */
