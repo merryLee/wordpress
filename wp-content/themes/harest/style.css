@@ -934,8 +934,8 @@ li.pag-next {
 #header-sticky {
 	font-size: 12px;
 	background: #FFF;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
@@ -943,13 +943,12 @@ li.pag-next {
 	box-sizing: border-box;
 }
 /*user*/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 #header,
 #header-sticky {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
-
 
 #header-links,
 #header-sticky-links {
@@ -2049,7 +2048,7 @@ input[type="reset"],
 input[type="submit"] {
 	color: #FFF;
 	text-align: center;
-	background: #ad1730;
+	background: #ad1730 !important;
 	border: none;
 	padding: 10px 20px;
 	-webkit-transition: all 0.3s ease;
@@ -2071,7 +2070,7 @@ button:hover,
 html input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background: #2d2d2d;
+	background: #2d2d2d !important;
 }
 
 /* Theme button - Style 2 */
@@ -5375,14 +5374,13 @@ body .fa-lg {
 #online-apply-table input[type="file"] {
 	color: black;
 }
-#online-apply-table input[type="text"], select, radio {
+#online-apply-table input[type="text"], select, input[type="tel"], input[type="file"] {
 	padding-top: 1px;
 	padding-bottom: 1px;
 	height: 28px;
 }
 #online-apply-table td {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px;
 	vertical-align: middle;
 }
 
