@@ -718,7 +718,8 @@ li.pag-next {
 #logo,
 #logo-sticky {
 	float: left;
-	margin-top: 26px;
+/*	margin-top: 26px;*/
+	margin-top: 20px;	
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
@@ -964,12 +965,13 @@ li.pag-next {
 #header .header-links > ul > li a,
 #header-sticky .header-links > ul > li a {
 /*	font-size: 14px;
-	color: #898a8c;*/
-	padding: 36px 15px;
+	color: #898a8c;
+	padding: 36px 15px;*/
 /*user 수정*/
 	font-size: 15px;
 	font-weight: 600;
 	color: #333333;
+	padding: 30px 12px;
 }
 #header .header-links > ul > li.menu-parent > a:after,
 #header-sticky .header-links > ul > li.menu-parent > a:after {
