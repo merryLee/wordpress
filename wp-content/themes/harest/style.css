@@ -146,7 +146,7 @@ textarea {
 /*	font-family: Raleway, Helvetica, Arial;*/
 	font-family: 'Nanum Gothic', Raleway, Helvetica;
 	font-size: 13px;
-	line-height: 1.8;
+	line-height: 2;
 	word-wrap: break-word;
 }
 body {
@@ -5083,11 +5083,11 @@ body .fa-lg {
 --------------------------------------------------------------------------------------- */
 .section {
   position: relative;
-  padding: 20px 10px;
+  padding: 30px 10px;
 }
 .section-grey {
   position: relative;
-  padding: 20px 10px;
+  padding: 30px 10px;
   background-color: rgb(234,233,233);
 }
 
