@@ -37,15 +37,10 @@
 			<?php wp_nav_menu( array( 'container_class' => 'header-links', 'container_id' => 'pre-header-links-inner', 'theme_location' => 'pre_header_menu' ) ); ?>
 			<?php endif;*/ ?>
 			<?php /* Social Media Icons */ thinkup_input_socialmediaheaderpre(); ?>
-
-			<div class="container">
-				<div class="navbar-header">
-
+			<div id="contact-pre-header">
 			<span style="white-space: nowrap;"><i class="fa fa-phone" aria-hidden="true"></i> Tel. +82 70­-8637-4888  | </span>
-			<span style="white-space: nowrap;"><i class="fa fa-envelope" aria-hidden="true"></i> delhikim@daum.net</span></div>
+			<span style="white-space: nowrap;"><i class="fa fa-envelope" aria-hidden="true"></i> delhikim@daum.net</span>
 			</div>
-			
-			
 		</div>
 		</div>
 		</div>
