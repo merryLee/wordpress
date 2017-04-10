@@ -20,24 +20,24 @@ get_header(); ?>
 <?php
 $pageid = get_the_ID();
 
-if(($pageid==14)||($pageid==18)
-||($pageid==375)||($pageid==378)||($pageid==381)||($pageid==384)
-||($pageid==898)||($pageid==901)||($pageid==905)||($pageid==908)) : ?>
+if(($pageid==1)||($pageid==4)
+||($pageid==6)||($pageid==12)||($pageid==16)) : ?>
 
-<div class="three_fourth">
 	<?php while ( have_posts() ) : the_post(); ?>
 		<?php get_template_part( 'content', 'page' ); ?>
 	<?php endwhile; ?>
-</div>
-<div class="one_fourth last" style="background-color: #fff;">
-<!-- wp-modify -->
-	<?php /* Sidebar */ thinkup_sidebar_html(); ?>
-</div>
 
 <?php else : ?>
-	<?php while ( have_posts() ) : the_post(); ?>
-		<?php get_template_part( 'content', 'page' ); ?>
-	<?php endwhile; ?>
+
+	<div class="three_fourth">
+		<?php while ( have_posts() ) : the_post(); ?>
+			<?php get_template_part( 'content', 'page' ); ?>
+		<?php endwhile; ?>
+	</div>
+	<div class="one_fourth last" style="background-color: #fff;">
+	<!-- wp-modify -->
+		<?php /* Sidebar */ thinkup_sidebar_html(); ?>
+	</div>
 
 <?php endif; ?>
 
